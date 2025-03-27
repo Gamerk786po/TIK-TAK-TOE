@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tik tak toe</title>
+</head>
+<link rel="Stylesheet" href="styling.css">
+<body>
+    <!-- Main heading -->
+    <h1 id="main_heading">Tik tak toe</h1>
+    <!-- Main container -->
+    <div id="main_container">
+        <!-- Tik tak boxes -->
+         <!-- First line -->
+        <div class="lines" id="first_line">
+            <button class="buttons"></button>
+            <button class="buttons"></button>
+            <button class="buttons"></button>
+        </div>
+        <!-- Second line  -->
+        <div class="lines" id="second_line">
+            <button class="buttons"></button>
+            <button class="buttons"></button>
+            <button class="buttons"></button>
+        </div>
+        <!-- Third line -->
+        <div class="lines" id="third_line">
+            <button class="buttons"></button>
+            <button class="buttons"></button>
+            <button class="buttons"></button>
+        </div>
+        <!-- Score board -->
+        <div id="score_board">
+            <!-- Player 1 -->
+            <div id="player_1">
+                <p id="player_1_score">0</p>
+                <p id="player_1_name">Player-1</p>
+                <button class="name_change_buttons" id="change_player_1">Change name</button>
+            </div>
+            <!-- reset button -->
+            <button id="reset_button">Reset</button>
+            <!-- Player 2 -->
+            <div id="player_2">
+                <p id="player_2_score">0</p>
+                <p id="player_2_name">Player-2</p>
+                <button class="name_change_buttons" id="change_player_2">Change name</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #cdb4db;
+}
+/* Main heading */
+#main_heading{
+    background-color: #ffafcc;
+    color: #bde0fe;
+    text-align: center;
+    font-size: 40px;
+    font-family: cursive;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 100px;
+}
+/* Main div container */
+#main_container{
+    margin-bottom: 30px;
+    padding: 15px;
+}
+/* buttons */
+.buttons{
+    height: 3cm;
+    width: 3cm;
+    background-color: #a2d2ff;
+    margin: 3px;
+    border: none;
+    border-radius: 10px;
+}
+.buttons:hover{
+    cursor: pointer;
+}
+/* lines */
+.lines{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Score board */
+#score_board{
+    color: whitesmoke;
+    font-size: xx-large;
+    font-family: cursive;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#player_1, #player_2{
+    text-align: center;
+}
+.name_change_buttons{
+    background-color: palevioletred;
+    color: whitesmoke;
+    font-family: cursive;
+    font-size: x-large;
+    border: none;
+    border-radius: 5px;
+    padding: 7px;
+}
+.name_change_buttons:hover{
+    background-color: pink;
+    cursor: pointer;
+}
+/* Reset button */
+#reset_button{
+    font-size: x-large;
+    font-family: cursive;
+    background-color: palevioletred;
+    color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    padding: 9px;
+}
+#reset_button:hover{
+    background-color: pink;
+    cursor: pointer;
+}
